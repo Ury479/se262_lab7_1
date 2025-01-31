@@ -1,1 +1,8 @@
+# IDE 文件
+.idea/
+.vscode/
+*.iml
 
+# 本地环境文件
+.env
+node_modules/
