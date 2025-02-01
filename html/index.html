@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile Page</title>
+  <style>
+    /* 简单的内联样式，仅做示例，可独立CSS文件中编写 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+    }
+    .profile-img {
+      display: block;
+      margin: 0 auto 20px auto;
+      border-radius: 50%;
+      width: 200px; /* 示例大小 */
+      height: 200px;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .bio {
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-    <h2>Hello, my name is YIHAO WANG</h2>
+
+  <div class="container">
+    <h1>Welcome to My Profile</h1>
+
+    <!-- 1. 个人头像或图片 -->
+    <!-- 假设你把个人照片命名为 my_photo.jpg 并放在同一文件夹下 -->
+    
+    <!-- 2. 个人简介 -->
+    <div class="bio">
+       <img src="./img/janssja_a_photorealistic_image_of_santa_claus_opening_a_present_f61d7097-388f-4c60-b6af-1b5661267be3.png" alt="My Photo" class="profile-img">
+      <p>Hello! My name is <strong>YOUR_NAME</strong>. I am currently learning DevOps and exploring how to automatically deploy web applications using GitHub Actions or drone-scp.</p>
+      <p>This is my first deployed website on an AWS EC2 server, using Nginx. I have just added my profile and an image!</p>
+    </div>
+  </div>
+
 </body>
 </html>
